@@ -23,4 +23,9 @@ public class UserInfoController {
 		return userInfoService.listUserInfo();
 	}
 	
+	@RequestMapping("toindex")
+	public String toIndex() {
+		return "index";
+	}
+	
 }
